@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Position</title>
+
+		<style>
+			img {
+				height    : 100px;
+				width     : 250px;
+				position  : absolute;		/*img is positioned relative to its nearest positioned ancestor element or  document body*/
+				top       : 0px;
+				left      : 0px;
+				z-index   : 1;				/*this specifies that the image must come before the heading*/
+			}
+		</style>
+
+	</head>
+	<body>
+		<h1>This is a Heading.ing. This is a Heading.</h1>
+
+		<img src="https://pbs.twimg.com/profile_images/666245301678673920/jfV7rJEi.png"><br>
+
+		<p>This is a paragraph.This is a paragraph.</p>
+		<p>This is another paragraph.This is another Paragraph.</p>
+	</body>
+</html>
